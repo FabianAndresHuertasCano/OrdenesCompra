@@ -30,19 +30,56 @@ namespace TARJETA_PRESENTACION.Sources.Pages
         protected void Crear(object sender, EventArgs e)
         {
 
-            Response.Write("<scr" + "ipt language=javascript>alert('Creado Exitosamente');</" + "script>");
+            using (con)
+            {
+                using (SqlCommand cmd = new SqlCommand("Crear", con))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.Add("@IdProducto", SqlDbType.VarChar).Value.tbProducto.Text;
+                    cmd.Parameters.Add("@IdOrden", SqlDbType.VarChar).Value = tbOrden.Text;
+                    cmd.Parameters.Add("@Destino", SqlDbType.VarChar).Value = tbDestino.Text;
+                    cmd.Parameters.Add("@NombreCliente", SqlDbType.VarChar).Value = tbNombreCliente.Text;            
+                    cmd.ExecuteNonQuery();
+                }
+                con.Close();
+                Response.Write("<scr" + "ipt language=javascript>alert('Creado Exitosamente');</" + "script>");
+            }
+            
         
         }
         protected void Modificar(object sender, EventArgs e)
         {
-
-            Response.Write("<scr" + "ipt language=javascript>alert('Modificado Exitosamente');</" + "script>");
+            using (con)
+            {
+                using (SqlCommand cmd = new SqlCommand("Editar", con))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.Add("@IdPedido", SqlDbType.VarChar).Value.hidenId.Text;
+                    cmd.Parameters.Add("@IdProducto", SqlDbType.VarChar).Value.tbProducto.Text;
+                    cmd.Parameters.Add("@IdOrden", SqlDbType.VarChar).Value = tbOrden.Text;
+                    cmd.Parameters.Add("@Destino", SqlDbType.VarChar).Value = tbDestino.Text;
+                    cmd.Parameters.Add("@NombreCliente", SqlDbType.VarChar).Value = tbNombreCliente.Text;            
+                    cmd.ExecuteNonQuery();
+                }
+                con.Close();
+                Response.Write("<scr" + "ipt language=javascript>alert('Modificado Exitosamente');</" + "script>");
+            }
+            
 
         }
         protected void Eliminar(object sender, EventArgs e)
         {
-
-            Response.Write("<scr" + "ipt language=javascript>alert('Eliminado Exitosamente');</" + "script>");
+            using (con)
+            {
+                using (SqlCommand cmd = new SqlCommand("Eliminar", con))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.Add("@IdPedido", SqlDbType.VarChar).Value.hidenId.Text;         
+                    cmd.ExecuteNonQuery();
+                }
+                con.Close();
+                Response.Write("<scr" + "ipt language=javascript>alert('Eliminado Exitosamente');</" + "script>");
+            }
 
         }
     }
