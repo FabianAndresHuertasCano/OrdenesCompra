@@ -17,6 +17,9 @@
                      <asp:Label runat="server" Text="Pedidos" Font-Size="Larger"></asp:Label>
                 </div>     
                  <br />
+                <div class="input-group" hidden>
+                    <asp:TextBox runat="server" CssClass="form-control" placeholder="hidenId" ID="hidenId"></asp:TextBox>
+                </div>
                  <div class="input-group">
                      <asp:TextBox runat="server" CssClass="form-control" placeholder="IdProducto" ID="tbIdProducto"></asp:TextBox>
                  </div>

@@ -35,8 +35,8 @@ namespace TARJETA_PRESENTACION.Sources.Pages
                 using (SqlCommand cmd = new SqlCommand("Crear", con))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.Add("@IdProducto", SqlDbType.VarChar).Value.tbProducto.Text;
-                    cmd.Parameters.Add("@IdOrden", SqlDbType.VarChar).Value = tbOrden.Text;
+                    cmd.Parameters.Add("@IdProducto", SqlDbType.VarChar).Value = tbIdProducto.Text;
+                    cmd.Parameters.Add("@IdOrden", SqlDbType.VarChar).Value = tbIdOrden.Text;
                     cmd.Parameters.Add("@Destino", SqlDbType.VarChar).Value = tbDestino.Text;
                     cmd.Parameters.Add("@NombreCliente", SqlDbType.VarChar).Value = tbNombreCliente.Text;            
                     cmd.ExecuteNonQuery();
@@ -54,9 +54,9 @@ namespace TARJETA_PRESENTACION.Sources.Pages
                 using (SqlCommand cmd = new SqlCommand("Editar", con))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.Add("@IdPedido", SqlDbType.VarChar).Value.hidenId.Text;
-                    cmd.Parameters.Add("@IdProducto", SqlDbType.VarChar).Value.tbProducto.Text;
-                    cmd.Parameters.Add("@IdOrden", SqlDbType.VarChar).Value = tbOrden.Text;
+                    cmd.Parameters.Add("@IdPedido", SqlDbType.VarChar).Value = hidenId.Text;
+                    cmd.Parameters.Add("@IdProducto", SqlDbType.VarChar).Value = tbIdProducto.Text;
+                    cmd.Parameters.Add("@IdOrden", SqlDbType.VarChar).Value = tbIdOrden.Text;
                     cmd.Parameters.Add("@Destino", SqlDbType.VarChar).Value = tbDestino.Text;
                     cmd.Parameters.Add("@NombreCliente", SqlDbType.VarChar).Value = tbNombreCliente.Text;            
                     cmd.ExecuteNonQuery();
@@ -74,7 +74,7 @@ namespace TARJETA_PRESENTACION.Sources.Pages
                 using (SqlCommand cmd = new SqlCommand("Eliminar", con))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.Add("@IdPedido", SqlDbType.VarChar).Value.hidenId.Text;         
+                    cmd.Parameters.Add("@IdPedido", SqlDbType.VarChar).Value = hidenId.Text;         
                     cmd.ExecuteNonQuery();
                 }
                 con.Close();
