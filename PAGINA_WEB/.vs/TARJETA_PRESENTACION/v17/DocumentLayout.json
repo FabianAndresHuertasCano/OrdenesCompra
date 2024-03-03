@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GitUM\\OrdenesCompra\\OrdenesCompra\\PAGINA_WEB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF6F0B7-1BED-4BAF-96D8-568F650CD1A4}|TARJETA_PRESENTACION\\TARJETA_PRESENTACION.csproj|c:\\gitum\\ordenescompra\\ordenescompra\\pagina_web\\tarjeta_presentacion\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BBF6F0B7-1BED-4BAF-96D8-568F650CD1A4}|TARJETA_PRESENTACION\\TARJETA_PRESENTACION.csproj|solutionrelative:tarjeta_presentacion\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF6F0B7-1BED-4BAF-96D8-568F650CD1A4}|TARJETA_PRESENTACION\\TARJETA_PRESENTACION.csproj|C:\\GitUM\\OrdenesCompra\\OrdenesCompra\\PAGINA_WEB\\tarjeta_presentacion\\sources\\pages\\admin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF6F0B7-1BED-4BAF-96D8-568F650CD1A4}|TARJETA_PRESENTACION\\TARJETA_PRESENTACION.csproj|solutionrelative:tarjeta_presentacion\\sources\\pages\\admin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF6F0B7-1BED-4BAF-96D8-568F650CD1A4}|TARJETA_PRESENTACION\\TARJETA_PRESENTACION.csproj|C:\\GitUM\\OrdenesCompra\\OrdenesCompra\\PAGINA_WEB\\tarjeta_presentacion\\sources\\pages\\admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BBF6F0B7-1BED-4BAF-96D8-568F650CD1A4}|TARJETA_PRESENTACION\\TARJETA_PRESENTACION.csproj|solutionrelative:tarjeta_presentacion\\sources\\pages\\admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF6F0B7-1BED-4BAF-96D8-568F650CD1A4}|TARJETA_PRESENTACION\\TARJETA_PRESENTACION.csproj|c:\\gitum\\ordenescompra\\ordenescompra\\pagina_web\\tarjeta_presentacion\\sources\\pages\\frmestado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BBF6F0B7-1BED-4BAF-96D8-568F650CD1A4}|TARJETA_PRESENTACION\\TARJETA_PRESENTACION.csproj|solutionrelative:tarjeta_presentacion\\sources\\pages\\frmestado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF6F0B7-1BED-4BAF-96D8-568F650CD1A4}|TARJETA_PRESENTACION\\TARJETA_PRESENTACION.csproj|C:\\GitUM\\OrdenesCompra\\OrdenesCompra\\PAGINA_WEB\\tarjeta_presentacion\\sources\\pages\\frmregistro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BBF6F0B7-1BED-4BAF-96D8-568F650CD1A4}|TARJETA_PRESENTACION\\TARJETA_PRESENTACION.csproj|solutionrelative:tarjeta_presentacion\\sources\\pages\\frmregistro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmEstado.aspx",
+              "DocumentMoniker": "C:\\GitUM\\OrdenesCompra\\OrdenesCompra\\PAGINA_WEB\\TARJETA_PRESENTACION\\Sources\\Pages\\FrmEstado.aspx",
+              "RelativeDocumentMoniker": "TARJETA_PRESENTACION\\Sources\\Pages\\FrmEstado.aspx",
+              "ToolTip": "C:\\GitUM\\OrdenesCompra\\OrdenesCompra\\PAGINA_WEB\\TARJETA_PRESENTACION\\Sources\\Pages\\FrmEstado.aspx",
+              "RelativeToolTip": "TARJETA_PRESENTACION\\Sources\\Pages\\FrmEstado.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-02T13:55:56.26Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\GitUM\\OrdenesCompra\\OrdenesCompra\\PAGINA_WEB\\TARJETA_PRESENTACION\\Web.config",
+              "RelativeDocumentMoniker": "TARJETA_PRESENTACION\\Web.config",
+              "ToolTip": "C:\\GitUM\\OrdenesCompra\\OrdenesCompra\\PAGINA_WEB\\TARJETA_PRESENTACION\\Web.config",
+              "RelativeToolTip": "TARJETA_PRESENTACION\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-03-02T14:02:35.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmRegistro.aspx",
+              "DocumentMoniker": "C:\\GitUM\\OrdenesCompra\\OrdenesCompra\\PAGINA_WEB\\TARJETA_PRESENTACION\\Sources\\Pages\\FrmRegistro.aspx",
+              "RelativeDocumentMoniker": "TARJETA_PRESENTACION\\Sources\\Pages\\FrmRegistro.aspx",
+              "ToolTip": "C:\\GitUM\\OrdenesCompra\\OrdenesCompra\\PAGINA_WEB\\TARJETA_PRESENTACION\\Sources\\Pages\\FrmRegistro.aspx",
+              "RelativeToolTip": "TARJETA_PRESENTACION\\Sources\\Pages\\FrmRegistro.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000192|",
+              "WhenOpened": "2024-03-02T13:55:56.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Admin.aspx.cs",
+              "DocumentMoniker": "C:\\GitUM\\OrdenesCompra\\OrdenesCompra\\PAGINA_WEB\\TARJETA_PRESENTACION\\Sources\\Pages\\Admin.aspx.cs",
+              "RelativeDocumentMoniker": "TARJETA_PRESENTACION\\Sources\\Pages\\Admin.aspx.cs",
+              "ToolTip": "C:\\GitUM\\OrdenesCompra\\OrdenesCompra\\PAGINA_WEB\\TARJETA_PRESENTACION\\Sources\\Pages\\Admin.aspx.cs",
+              "RelativeToolTip": "TARJETA_PRESENTACION\\Sources\\Pages\\Admin.aspx.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAApwEwAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T13:55:56.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Admin.aspx",
+              "DocumentMoniker": "C:\\GitUM\\OrdenesCompra\\OrdenesCompra\\PAGINA_WEB\\TARJETA_PRESENTACION\\Sources\\Pages\\Admin.aspx",
+              "RelativeDocumentMoniker": "TARJETA_PRESENTACION\\Sources\\Pages\\Admin.aspx",
+              "ToolTip": "C:\\GitUM\\OrdenesCompra\\OrdenesCompra\\PAGINA_WEB\\TARJETA_PRESENTACION\\Sources\\Pages\\Admin.aspx",
+              "RelativeToolTip": "TARJETA_PRESENTACION\\Sources\\Pages\\Admin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-02T13:55:56.5Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
